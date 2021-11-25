@@ -1,0 +1,19 @@
+.tour__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+    margin-right: 108px;
+    margin-bottom: 85px;
+}
+.tour__desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+}
+.tour__info-link {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #006dfe;
+}
