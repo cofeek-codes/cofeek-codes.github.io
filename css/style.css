@@ -96,7 +96,7 @@
 
 .intro {
   min-height: 100vh;
-  background: url(../img/Hero.jpg) no-repeat center;
+  background: url("/img/Hero.jpg") no-repeat center;
   background-size: cover;
   padding-top: 263px;
   padding-bottom: 223px;
@@ -131,7 +131,7 @@
 
 .search-form__field {
   width: 297px;
-  background: transparent url(../img/svg/Oval.svg) no-repeat left 6px;
+  background: transparent url("/img/svg/Oval.svg") no-repeat left 6px;
   background-size: 20px;
   border: 0;
   border-bottom: 2px solid #bfc0c5;
@@ -214,7 +214,7 @@
 .benefits__grid-of-cards {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (3, 1fr);
+  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   -webkit-column-gap: 55px;
           column-gap: 55px;
@@ -258,7 +258,7 @@
   line-height: 24px;
   color: #006dfe;
   text-decoration: none;
-  background: url(../img/svg/arrow-ico.svg) no-repeat 95% center;
+  background: url("/img/svg/arrow-ico.svg") no-repeat 95% center;
   -webkit-transition: 0.2s all;
   -o-transition: 0.2s all;
   transition: 0.2s all;
@@ -266,7 +266,7 @@
 
 .benefits__card-link:hover,
 :focus {
-  background: url(../img/svg/arrow-ico.svg) no-repeat right center;
+  background: url("/img/svg/arrow-ico.svg") no-repeat right center;
 }
 
 .places__title {
@@ -294,7 +294,7 @@
   line-height: 24px;
   text-align: right;
   color: #006dfe;
-  background: url(../img/svg/arrow-ico.svg) no-repeat 95% center;
+  background: url("/img/svg/arrow-ico.svg") no-repeat 95% center;
   padding-right: 59px;
 }
 
@@ -310,7 +310,7 @@
 .places__cards {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (6, 1fr);
+  -ms-grid-columns: (1fr)[6];
       grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -401,7 +401,7 @@
 .tours__tour {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (2, 1fr);
+  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 108px;
   -webkit-box-align: center;
@@ -413,7 +413,7 @@
 .tours__tour2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (2, 1fr);
+  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 108px;
   -webkit-box-align: center;
@@ -443,7 +443,7 @@
   line-height: 24px;
   text-align: right;
   color: #006dfe;
-  background: url(../img/svg/arrow-ico.svg) no-repeat 95% center;
+  background: url("/img/svg/arrow-ico.svg") no-repeat 95% center;
   padding-right: 59px;
 }
 
@@ -463,7 +463,7 @@
 .top__grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (6, 1fr);
+  -ms-grid-columns: (1fr)[6];
       grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 57px;
   grid-row-gap: 57px;
@@ -526,7 +526,7 @@
   line-height: 24px;
   color: white;
   padding-right: 20px;
-  background: url(../img/svg/like.svg) no-repeat right;
+  background: url("/img/svg/like.svg") no-repeat right;
   margin-right: 14px;
 }
 
@@ -536,7 +536,7 @@
   line-height: 24px;
   color: white;
   padding-right: 23px;
-  background: url(../img/svg/comment.svg) no-repeat right;
+  background: url("/img/svg/comment.svg") no-repeat right;
 }
 
 .top__card-desc {
@@ -679,33 +679,6 @@
     font-size: 42px;
     line-height: 48px;
   }
-  .header__nav-close {
-    display: block;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 880;
-  }
-  .nav-close__line {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: white;
-    top: 50%;
-  }
-  .nav-close__line:first-child {
-    -webkit-transform: rotate(45deg) translateY(-50%);
-        -ms-transform: rotate(45deg) translateY(-50%);
-            transform: rotate(45deg) translateY(-50%);
-  }
-  .nav-close__line:last-child {
-    -webkit-transform: rotate(-45deg) translateY(-50%);
-        -ms-transform: rotate(-45deg) translateY(-50%);
-            transform: rotate(-45deg) translateY(-50%);
-  }
   .section__title {
     margin-bottom: 25px;
   }
@@ -735,7 +708,7 @@
   .search-form__field {
     margin-bottom: 25px;
     font-size: 12px;
-    background: transparent url(../img/svg/Oval.svg) no-repeat left 2px;
+    background: transparent url("/img/svg/Oval.svg") no-repeat left 2px;
   }
   .search-form__field::-webkit-input-placeholder {
     font-size: 16px;
