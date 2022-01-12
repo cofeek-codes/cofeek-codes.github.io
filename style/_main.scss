@@ -1,6 +1,6 @@
 .intro {
     min-height: 100vh; //! min
-    background: url("/img/Hero.jpg") no-repeat center;
+    background: url(../img/Hero.jpg) no-repeat center;
     background-size: cover;
     padding-top: 263px;
     padding-bottom: 223px;
@@ -28,7 +28,7 @@
 }
 .search-form__field {
     width: 297px;
-    background: transparent url("/img/svg/Oval.svg") no-repeat left 6px;
+    background: transparent url(../img/svg/Oval.svg) no-repeat left 6px;
     background-size: 20px;
     border: 0;
     border-bottom: 2px solid #bfc0c5;
